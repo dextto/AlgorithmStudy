@@ -2,9 +2,10 @@ package tree;
 
 public class Node {
 
-    private String mValue;
-    private Node mLeft;
-    private Node mRight;
+    protected String mValue;
+    protected Node mLeft;
+    protected Node mRight;
+    protected Node mParent;
 
     public Node(String value) {
         this.mValue = value;
@@ -30,13 +31,4 @@ public class Node {
             }
         }
     }
-
-    public final Node getLeft() {
-        return mLeft;
-    }
-    
-    public final Node getRight() {
-        return mRight;
-    }
-
 }
