@@ -7,6 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class BinarySearchTree {
+    // TODO: change value type as Object and change Node class that implements Comparable
 
     // This objects are for test
     BinarySearchTree bst;
