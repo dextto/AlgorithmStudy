@@ -1,10 +1,5 @@
 package PukyungUniv;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
 public class Recurstion_PowerSet {
 
     private static char[] data = "abcdef".toCharArray();
