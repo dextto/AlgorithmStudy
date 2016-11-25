@@ -7,11 +7,14 @@ src/algorithm
 src/codejam*
 src/study
 
+.idea
 bin
+out
 
 Ref.txt
 
 *.class
+*.iml
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
