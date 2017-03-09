@@ -69,11 +69,6 @@ public class Ex8_11_LIS_LongestIncreasingSequence {
         return ret;
     }
 
-    /**
-     * @param n
-     * @return
-     * @throws IOException
-     */
     private static int[] makeSequence(int n) throws IOException {
         int[] list = new int[n];
         String[] str = r.readLine().split("\\s");
