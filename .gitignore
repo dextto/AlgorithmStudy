@@ -29,3 +29,6 @@ hs_err_pid*
 
 .idea
 부경대 알고리즘 강의
+
+.gradle
+build
