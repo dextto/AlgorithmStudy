@@ -57,9 +57,10 @@ public class No131_PalindromePartitioning {
     }
 
     public boolean isPalindrom(String s) {
-        if (s.length() == 0) return false;
-        StringBuffer buf = new StringBuffer(s);
-        String p = buf.reverse().toString();
-        return s.equals(p);
+        if (s.length() == 0) return true;
+        for (int start = 0, end = s.length() - 1; start <= end; start++, end--) {
+            if (s.charAt(start) != s.charAt(end)) return false;
+        }
+        return true;
     }
 }
