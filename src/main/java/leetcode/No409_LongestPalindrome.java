@@ -1,5 +1,4 @@
-// https://leetcode.com/problems/increasing-holders
-// NOTE: the order of output is neglectable
+// https://leetcode.com/problems/longest-palindrome
 
 package leetcode;
 
