@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 public class Main {
 
     @Test
-    public void testGetColumnCount() {
+    public void testNQueens() {
         assertEquals(1, queens(1));
         assertEquals(0, queens(2));
         assertEquals(0, queens(3));
