@@ -1,12 +1,10 @@
-package acmicpc.prob9663;
+package acmicpc.prob9663_NQueens;
 
 import org.junit.Test;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.LinkedList;
-import java.util.Queue;
 
 import static org.junit.Assert.assertEquals;
 
