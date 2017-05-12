@@ -30,6 +30,12 @@ public class Main {
         assertEquals(4, cal(area, 2, 100));
     }
 
+    @Test
+    public void test4() throws Exception {
+        int[] area = new int[]{49, 51, 51, 49, 51, 51};
+        assertEquals(4, cal(area, 3, 100));
+    }
+
     public static void main(String[] args) throws IOException {
         r = new BufferedReader(new InputStreamReader(System.in));
         int cases = Integer.parseInt(r.readLine());
