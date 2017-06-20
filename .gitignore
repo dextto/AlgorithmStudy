@@ -4,7 +4,7 @@ algosrc
 InputOutput
 src_cpp
 src/algorithm
-src/codejam*
+codejam*
 src/study
 
 .idea
